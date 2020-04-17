@@ -1,4 +1,4 @@
 /out
-/.idea
-*.zip
-*.iml
+!/.idea
+!*.zip
+!*.iml
