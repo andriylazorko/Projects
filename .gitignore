@@ -1,4 +1,8 @@
 /out
-!/.idea
-!*.zip
-!*.iml
+/.idea
+*.zip
+*.iml
+<<<<<<< HEAD
+=======
+!.gitignore
+>>>>>>> ae98756c47dd5bbc104c8c550c0321df76323dd3
