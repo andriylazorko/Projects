@@ -10,3 +10,11 @@
         // Be sure not to expose the inner workings of the Arraylist to MobilePhone
         // e.g. no ints, no .get(i) etc
         // MobilePhone should do everything with Contact objects only.
+
+	.add( (String) item)
+	.size();
+	.get( (int) i));
+	.set( (int) position, (String) newItem);
+	.indexOf( (String) searchItem);
+ 	.remove( (int) position);
+	
