@@ -22,13 +22,37 @@ public class Main {
                     quit=true;
                     break;
                 case 1:
-                    printContacts();
+                    mobilephone.printContacts();
+                    break;
+                case 2:
+                    addNewContact();
+                    break;
+                case 3:
+                    updateContact();
+                    break;
+                case 4:
+                    removeContact();
+                    break;
+                case 5:
+                    queryContact();
+                    break;
+                case 6:
+                    printActions();
                     break;
             }
         }
     }
-    private static void printContacts(){
-        mobilephone.printContacts();
+    private static void addNewContact(){
+        System.out.println(" Enter new contact name: ");
+        String name = scanner.nextLine();
+        System.out.println(" Enter new phone number: ");
+        String phoneNumber = scanner.nextLine();
+        Contact newContact = Contact.createContacts(name,phoneNumber);
+        if(mobilephone.addNewContact(newContact)){
+            System.out.println(" New contact added: name = "+name+", phone"+phoneNumber);
+        }else{
+            System.out.println(" Cannot add, "+name+" already on file");
+        }
     }
 
     private static void startPhone() {
