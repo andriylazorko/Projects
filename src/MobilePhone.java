@@ -32,21 +32,21 @@ public class MobilePhone {
         }
     }
 
-    public boolean removeContact(Contact contact){
+    public boolean removeContact(Contact contact) {
         int foundPosition = findContact(contact);
         if (foundPosition < 0) {
             System.out.println(contact.getName() + " was not found.");
             return false;
         }
         this.myContact.remove(foundPosition);
-        System.out.println(contact.getName()+" was deleted.");
+        System.out.println(contact.getName() + " was deleted.");
         return true;
     }
 
-    private int findContact(String ContactName) {
+    private int findContact(String contactName) {
         for (int i = 0; i < myContact.size(); i++) {
             Contact contact = this.myContact.get(i);
-            if (contact.getName().equals(contact)) {
+            if (contact.getName().equals(contactName)) {
                 return i;
             }
         }
@@ -58,25 +58,25 @@ public class MobilePhone {
     }
 
     public String queryContact(Contact contact) {
-        if(findContact(contact)>=0){
+        if (findContact(contact) >= 0) {
             return contact.getName();
         }
         return null;
     }
 
-    public Contact queryContact(String name){
+    public Contact queryContact(String name) {
         int position = findContact(name);
-        if(position>=0){
+        if (position >= 0) {
             this.myContact.get(position);
         }
-        return  null;
+        return null;
     }
 
-    public void printContacts(){
-        System.out.println(" Contact List");
-        for(int i=0;i<myContact.size();i++){
-            System.out.println((i+1)+"."+
-                    this.myContact.get(i).getName()+"->"+
+    public void printContacts() {
+        System.out.println(" Contact List:");
+        for (int i = 0; i < myContact.size(); i++) {
+            System.out.println((i + 1) + "." +
+                    this.myContact.get(i).getName() + "->" +
                     this.myContact.get(i).getPhoneNumber());
         }
     }

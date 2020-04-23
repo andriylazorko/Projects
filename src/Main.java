@@ -16,10 +16,10 @@ public class Main {
             int action = scanner.nextInt();
             scanner.nextLine();
 
-            switch (action){
+            switch (action) {
                 case 0:
-                    System.out.println("\nShuting down...");
-                    quit=true;
+                    System.out.println("\n Shutting down...");
+                    quit = true;
                     break;
                 case 1:
                     mobilephone.printContacts();
@@ -42,23 +42,25 @@ public class Main {
             }
         }
     }
-    private static void addNewContact(){
+
+    private static void addNewContact() {
         System.out.println(" Enter new contact name: ");
         String name = scanner.nextLine();
         System.out.println(" Enter new phone number: ");
         String phoneNumber = scanner.nextLine();
-        Contact newContact = Contact.createContacts(name,phoneNumber);
-        if(mobilephone.addNewContact(newContact)){
-            System.out.println(" New contact added: name = "+name+", phone"+phoneNumber);
-        }else{
-            System.out.println(" Cannot add, "+name+" already on file");
+        Contact newContact = Contact.createContacts(name, phoneNumber);
+        if (mobilephone.addNewContact(newContact)) {
+            System.out.println(" New contact added: name = " + name + ", phone = " + phoneNumber);
+        } else {
+            System.out.println(" Cannot add, " + name + " already on file");
         }
     }
-    private void updateContact(){
+
+    private static void updateContact() {
         System.out.println(" Enter existing contact name: ");
         String name = scanner.nextLine();
         Contact existingContactRecord = mobilephone.queryContact(name);
-        if(existingContactRecord==null){
+        if (existingContactRecord == null) {
             System.out.println(" Contact not found.");
             return;
         }
@@ -66,28 +68,40 @@ public class Main {
         String newName = scanner.nextLine();
         System.out.println(" Enter new contact number: ");
         String newNumber = scanner.nextLine();
-        Contact newContact = Contact.createContacts(name,newNumber);
-        if(mobilephone.updateContact(existingContactRecord,newContact)){
+        Contact newContact = Contact.createContacts(name, newNumber);
+        if (mobilephone.updateContact(existingContactRecord, newContact)) {
             System.out.println(" Successfully update record");
-        }else {
+        } else {
             System.out.println(" Error updating record.");
         }
 
     }
 
-    private void removeContact(){
+    private static void removeContact() {
         System.out.println(" Enter existing contact name: ");
         String name = scanner.nextLine();
         Contact existingContactRecord = mobilephone.queryContact(name);
-        if(existingContactRecord==null){
+        if (existingContactRecord == null) {
             System.out.println(" Contact not found.");
             return;
         }
-        if(mobilephone.removeContact(existingContactRecord)){
+        if (mobilephone.removeContact(existingContactRecord)) {
             System.out.println(" Successfully deleted.");
-        }else{
+        } else {
             System.out.println(" Error deleting contact.");
         }
+    }
+
+    private static void queryContact() {
+        System.out.println(" Enter existing contact name: ");
+        String name = scanner.nextLine();
+        Contact existingContactRecord = mobilephone.queryContact(name);
+        if (existingContactRecord == null) {
+            System.out.println(" Contact not found.");
+            return;
+        }
+        System.out.println(" Name: " + existingContactRecord.getName() +
+                " phone number is " + existingContactRecord.getPhoneNumber());
     }
 
     private static void startPhone() {
@@ -97,9 +111,9 @@ public class Main {
     private static void printActions() {
         System.out.println("\nAvailable actions:\npress ");
         System.out.println(" 0 - to shutdown \n" +
-                " 1 - to print contacts \n+" +
+                " 1 - to print contacts \n" +
                 " 2 - to add to add a new contact \n" +
-                " 3 - to apdate an existing contact \n" +
+                " 3 - to update an existing contact \n" +
                 " 4 - to remove an existing contact \n" +
                 " 5 - query if an existing contact exist \n" +
                 " 6 - to print a list of available contacts. ");
