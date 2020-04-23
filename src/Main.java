@@ -54,6 +54,41 @@ public class Main {
             System.out.println(" Cannot add, "+name+" already on file");
         }
     }
+    private void updateContact(){
+        System.out.println(" Enter existing contact name: ");
+        String name = scanner.nextLine();
+        Contact existingContactRecord = mobilephone.queryContact(name);
+        if(existingContactRecord==null){
+            System.out.println(" Contact not found.");
+            return;
+        }
+        System.out.println(" Enter new contact name: ");
+        String newName = scanner.nextLine();
+        System.out.println(" Enter new contact number: ");
+        String newNumber = scanner.nextLine();
+        Contact newContact = Contact.createContacts(name,newNumber);
+        if(mobilephone.updateContact(existingContactRecord,newContact)){
+            System.out.println(" Successfully update record");
+        }else {
+            System.out.println(" Error updating record.");
+        }
+
+    }
+
+    private void removeContact(){
+        System.out.println(" Enter existing contact name: ");
+        String name = scanner.nextLine();
+        Contact existingContactRecord = mobilephone.queryContact(name);
+        if(existingContactRecord==null){
+            System.out.println(" Contact not found.");
+            return;
+        }
+        if(mobilephone.removeContact(existingContactRecord)){
+            System.out.println(" Successfully deleted.");
+        }else{
+            System.out.println(" Error deleting contact.");
+        }
+    }
 
     private static void startPhone() {
         System.out.println(" Starting phone... ");
