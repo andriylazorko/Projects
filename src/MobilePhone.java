@@ -24,13 +24,18 @@ public class MobilePhone {
             System.out.println(oldContact.getName() + " was not found.");
             return false;
         }
-
+        if (findContact(newContact.getName()) < 0) {
             System.out.println(oldContact.getName() +
                     " was replaced with " +
                     newContact.getName());
             this.myContact.set(foundPosition, newContact);
             return true;
-
+        } else {
+            int newPosition = findContact(newContact.getName());
+            this.myContact.set(newPosition,newContact);
+            removeContact(oldContact);
+            return true;
+        }
     }
 
     public boolean removeContact(Contact contact) {
