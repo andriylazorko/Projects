@@ -68,7 +68,7 @@ public class Main {
         String newName = scanner.nextLine();
         System.out.println(" Enter new contact number: ");
         String newNumber = scanner.nextLine();
-        Contact newContact = Contact.createContacts(name, newNumber);
+        Contact newContact = Contact.createContacts(newName, newNumber);
         if (mobilephone.updateContact(existingContactRecord, newContact)) {
             System.out.println(" Successfully update record");
         } else {
