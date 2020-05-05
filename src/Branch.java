@@ -1,44 +1,40 @@
 import java.util.ArrayList;
 
 public class Branch {
-    private String name;
-    private ArrayList<Customer> customers;
+    private String BranchName;
+    private ArrayList<Customer> branchCustomer;
 
-    public Branch(String name) {
-        this.name = name;
-        this.customers = new ArrayList<Customer>();
+    public Branch(String branchName) {
+        BranchName = branchName;
+        branchCustomer = new ArrayList<Customer>();
     }
 
-    public String getName() {
-        return name;
+    public String getBranchName() {
+        return BranchName;
+    }
+    public ArrayList<Customer> getBranchCustomer() {
+        return branchCustomer;
     }
 
-    public ArrayList<Customer> getCustomers() {
-        return customers;
-    }
-
-    public boolean newCustomer(String customerName, double initialAmount) {
-        if (findCustomer(customerName) == null) {
-            this.customers.add(new Customer(customerName, initialAmount));
+    public boolean addNewCustomer(String name, double transaction){
+        if(searchBranchCustomer(name)==null){
+            branchCustomer.add(new Customer(name,transaction));
             return true;
         }
         return false;
     }
-
-    public boolean addCustomerTransaction(String customerName, double amount) {
-        Customer existingCustomer = findCustomer(customerName);
-        if (existingCustomer != null) {
-            existingCustomer.addTransaction(amount);
+    public boolean addNewTransaction(String name,double transaction){
+        Customer object = searchBranchCustomer(name);
+        if(object!=null){
+            object.addTransaction(transaction);
             return true;
         }
         return false;
     }
-
-    private Customer findCustomer(String customerName) {
-        for (int i = 0; i < this.customers.size();i++ ){
-            Customer checkedCustomer = this.customers.get(i);
-            if(checkedCustomer.getName().equals(customerName)){
-                return checkedCustomer;
+    private Customer searchBranchCustomer(String searchName){
+        for(int i=0; i<this.branchCustomer.size(); i++){
+            if(this.branchCustomer.get(i).getCustomerName().equals(searchName)){
+                return this.branchCustomer.get(i);
             }
         }
         return null;

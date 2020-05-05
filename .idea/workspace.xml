@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="14fe163c-c68d-4853-9496-f2900fabe2a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/114. Autoboxing &amp; Unboxing (Challenge Exercise) - My version.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/112. Autoboxing &amp; Unboxing (Challenge Exercise) - Part 1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/112. Autoboxing &amp; Unboxing (Challenge Exercise) - Part 1/Bank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/112. Autoboxing &amp; Unboxing (Challenge Exercise) - Part 1/Branch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/112. Autoboxing &amp; Unboxing (Challenge Exercise) - Part 1/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/112. Autoboxing &amp; Unboxing (Challenge Exercise) - Part 1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Branch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Branch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bS2CdeBz76156vpL0JqKAxjT51" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14fe163c-c68d-4853-9496-f2900fabe2a3" name="Default Changelist" comment="" />
+      <created>1588611047223</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588611047223</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="640" y="182" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1588651433001">
+      <screen x="64" y="27" width="1536" height="873" />
+    </state>
+    <state x="640" y="182" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/64.27.1536.873@64.27.1536.873" timestamp="1588651433001" />
+    <state x="495" y="214" width="672" height="678" key="search.everywhere.popup" timestamp="1588613063680">
+      <screen x="64" y="27" width="1536" height="873" />
+    </state>
+    <state x="495" y="214" width="672" height="678" key="search.everywhere.popup/64.27.1536.873@64.27.1536.873" timestamp="1588613063680" />
+  </component>
+</project>
