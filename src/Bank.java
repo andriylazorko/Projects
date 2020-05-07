@@ -14,7 +14,7 @@ public class Bank {
         if (branch != null) {
             System.out.println(bankName + "`s branch name is " + branch.getBranchName() +
                     ", number of branch is " +
-                    bankBranch.indexOf(branch) + 1);
+                    (bankBranch.indexOf(branch) + 1));
             ArrayList<Customer> branchCustomer = branch.getBranchCustomer();
             System.out.println(" List of customers:          Transaction:");
             for (int i = 0; i < branchCustomer.size(); i++) {

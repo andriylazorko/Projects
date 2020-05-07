@@ -5,6 +5,7 @@ public class Main {
         if (!bank.addBranch("Komarno")) {
             System.out.println(" Branch Komarno created ");
         }
+        bank.addBranch("Litovka");
         bank.addCustomer("Komarno", "Andriy", 9152.9);
         bank.addCustomer("Komarno", "Vasily", 1512.9);
         bank.addCustomer("Komarno", "Igor", 1852.9);
@@ -16,7 +17,7 @@ public class Main {
         bank.addTransaction("Komarno", "Vasily", 11512.29);
 
         bank.listCustomer("Komarno", true);
-        bank.listCustomer("litovka", true);
+        bank.listCustomer("Litovka", true);
 
 
     }
