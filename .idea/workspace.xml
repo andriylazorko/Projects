@@ -121,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588822537383</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="english 05070634">
+      <created>1588824240723</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588824240723</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,7 +148,8 @@
     <MESSAGE value="myVersion 06050714" />
     <MESSAGE value="myVersion 06051640" />
     <MESSAGE value="myVersionFinish 05070634" />
-    <option name="LAST_COMMIT_MESSAGE" value="myVersionFinish 05070634" />
+    <MESSAGE value="english 05070634" />
+    <option name="LAST_COMMIT_MESSAGE" value="english 05070634" />
   </component>
   <component name="WindowStateProjectService">
     <state x="640" y="182" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1588651433001">
