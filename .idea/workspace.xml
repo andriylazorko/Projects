@@ -19,22 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14fe163c-c68d-4853-9496-f2900fabe2a3" name="Default Changelist" comment="myVersion 06051640">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/114. Autoboxing &amp; Unboxing (Challenge Exercise) - My version.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture-61-challenge.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/114. Autoboxing &amp; Unboxing (Challenge Exercise) - My version/Bank.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/114. Autoboxing &amp; Unboxing (Challenge Exercise) - My version/Branch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/114. Autoboxing &amp; Unboxing (Challenge Exercise) - My version/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/114. Autoboxing &amp; Unboxing (Challenge Exercise) - My version/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bank.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Branch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+    <list default="true" id="a5476c3e-689a-458b-bb12-296fddef3da8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/English words 40.txt" beforeDir="false" afterPath="$PROJECT_DIR$/English words 40.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +41,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1bS2CdeBz76156vpL0JqKAxjT51" />
+  <component name="ProjectId" id="1boeiV9mdPPYU4eoxRHRIiShsGb" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -59,20 +52,26 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DocomentsWin10/programing/STUDYING/UdemySection8 Arrays inbuilt List Autoboxing and Unboxing/114. Autoboxing &amp; Unboxing (Challenge Exercise) - Part 3" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo" />
+      <module name="116. LinkedList Part" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="114. Autoboxing &amp; Unboxing (Challenge Exercise) - My version" />
+      <module name="116. LinkedList Part" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -82,69 +81,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="14fe163c-c68d-4853-9496-f2900fabe2a3" name="Default Changelist" comment="" />
-      <created>1588611047223</created>
+      <changelist id="a5476c3e-689a-458b-bb12-296fddef3da8" name="Default Changelist" comment="" />
+      <created>1589169462917</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1588611047223</updated>
+      <updated>1589169462917</updated>
     </task>
-    <task id="LOCAL-00001" summary="myVersion 05050707">
-      <created>1588651639238</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1588651639238</updated>
-    </task>
-    <task id="LOCAL-00002" summary="myVersion 05050707">
-      <created>1588651664067</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1588651664067</updated>
-    </task>
-    <task id="LOCAL-00003" summary="myVersion 06050714">
-      <created>1588738484477</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1588738484477</updated>
-    </task>
-    <task id="LOCAL-00004" summary="myVersion 06051640">
-      <created>1588772417223</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1588772417223</updated>
-    </task>
-    <task id="LOCAL-00005" summary="myVersion 06051640">
-      <created>1588772425565</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1588772425565</updated>
-    </task>
-    <task id="LOCAL-00006" summary="myVersionFinish 05070634">
-      <created>1588822524573</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1588822524573</updated>
-    </task>
-    <task id="LOCAL-00007" summary="myVersionFinish 05070634">
-      <created>1588822537383</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1588822537383</updated>
-    </task>
-    <task id="LOCAL-00008" summary="english 05070634">
-      <created>1588824240723</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1588824240723</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,67 +101,26 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="myVersion 05050707" />
-    <MESSAGE value="myVersion 06050714" />
-    <MESSAGE value="myVersion 06051640" />
-    <MESSAGE value="myVersionFinish 05070634" />
-    <MESSAGE value="english 05070634" />
-    <option name="LAST_COMMIT_MESSAGE" value="english 05070634" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="640" y="182" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1588651433001">
+    <state x="1083" y="182" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1589169922963">
       <screen x="64" y="27" width="1536" height="873" />
     </state>
-    <state x="640" y="182" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/64.27.1536.873@64.27.1536.873" timestamp="1588651433001" />
-    <state x="775" y="311" width="801" height="491" key="FileChooserDialogImpl" timestamp="1588741430268">
-      <screen x="64" y="27" width="1856" height="1053" />
-    </state>
-    <state x="652" y="262" key="FileChooserDialogImpl/64.27.1536.873@64.27.1536.873" timestamp="1588736279727" />
-    <state x="775" y="311" width="801" height="491" key="FileChooserDialogImpl/64.27.1856.1053@64.27.1856.1053" timestamp="1588741430268" />
-    <state width="1490" height="181" key="GridCell.Tab.0.bottom" timestamp="1588824390358">
+    <state x="1083" y="182" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/64.27.1536.873@64.27.1536.873" timestamp="1589169922963" />
+    <state width="489" height="713" key="GridCell.Tab.0.bottom" timestamp="1589306578339">
       <screen x="64" y="27" width="1536" height="873" />
     </state>
-    <state width="1490" height="181" key="GridCell.Tab.0.bottom/64.27.1536.873@64.27.1536.873" timestamp="1588824390358" />
-    <state width="882" height="339" key="GridCell.Tab.0.bottom/64.27.1856.1053@64.27.1856.1053" timestamp="1588778219008" />
-    <state width="1490" height="181" key="GridCell.Tab.0.center" timestamp="1588824390357">
+    <state width="489" height="713" key="GridCell.Tab.0.bottom/64.27.1536.873@64.27.1536.873" timestamp="1589306578339" />
+    <state width="489" height="713" key="GridCell.Tab.0.center" timestamp="1589306578338">
       <screen x="64" y="27" width="1536" height="873" />
     </state>
-    <state width="1490" height="181" key="GridCell.Tab.0.center/64.27.1536.873@64.27.1536.873" timestamp="1588824390357" />
-    <state width="882" height="339" key="GridCell.Tab.0.center/64.27.1856.1053@64.27.1856.1053" timestamp="1588778219008" />
-    <state width="1490" height="181" key="GridCell.Tab.0.left" timestamp="1588824390356">
+    <state width="489" height="713" key="GridCell.Tab.0.center/64.27.1536.873@64.27.1536.873" timestamp="1589306578338" />
+    <state width="489" height="713" key="GridCell.Tab.0.left" timestamp="1589306578337">
       <screen x="64" y="27" width="1536" height="873" />
     </state>
-    <state width="1490" height="181" key="GridCell.Tab.0.left/64.27.1536.873@64.27.1536.873" timestamp="1588824390356" />
-    <state width="882" height="339" key="GridCell.Tab.0.left/64.27.1856.1053@64.27.1856.1053" timestamp="1588778219007" />
-    <state width="1490" height="181" key="GridCell.Tab.0.right" timestamp="1588824390358">
+    <state width="489" height="713" key="GridCell.Tab.0.left/64.27.1536.873@64.27.1536.873" timestamp="1589306578337" />
+    <state width="489" height="713" key="GridCell.Tab.0.right" timestamp="1589306578338">
       <screen x="64" y="27" width="1536" height="873" />
     </state>
-    <state width="1490" height="181" key="GridCell.Tab.0.right/64.27.1536.873@64.27.1536.873" timestamp="1588824390358" />
-    <state width="882" height="339" key="GridCell.Tab.0.right/64.27.1856.1053@64.27.1856.1053" timestamp="1588778219008" />
-    <state width="882" height="339" key="GridCell.Tab.1.bottom" timestamp="1588778219010">
-      <screen x="64" y="27" width="1856" height="1053" />
-    </state>
-    <state width="882" height="339" key="GridCell.Tab.1.bottom/64.27.1856.1053@64.27.1856.1053" timestamp="1588778219010" />
-    <state width="882" height="339" key="GridCell.Tab.1.center" timestamp="1588778219009">
-      <screen x="64" y="27" width="1856" height="1053" />
-    </state>
-    <state width="882" height="339" key="GridCell.Tab.1.center/64.27.1856.1053@64.27.1856.1053" timestamp="1588778219009" />
-    <state width="882" height="339" key="GridCell.Tab.1.left" timestamp="1588778219009">
-      <screen x="64" y="27" width="1856" height="1053" />
-    </state>
-    <state width="882" height="339" key="GridCell.Tab.1.left/64.27.1856.1053@64.27.1856.1053" timestamp="1588778219009" />
-    <state width="882" height="339" key="GridCell.Tab.1.right" timestamp="1588778219010">
-      <screen x="64" y="27" width="1856" height="1053" />
-    </state>
-    <state width="882" height="339" key="GridCell.Tab.1.right/64.27.1856.1053@64.27.1856.1053" timestamp="1588778219010" />
-    <state x="603" y="378" width="457" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588651674871">
-      <screen x="64" y="27" width="1536" height="873" />
-    </state>
-    <state x="603" y="378" width="457" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/64.27.1536.873@64.27.1536.873" timestamp="1588651674871" />
-    <state x="495" y="214" width="672" height="678" key="search.everywhere.popup" timestamp="1588613063680">
-      <screen x="64" y="27" width="1536" height="873" />
-    </state>
-    <state x="495" y="214" width="672" height="678" key="search.everywhere.popup/64.27.1536.873@64.27.1536.873" timestamp="1588613063680" />
+    <state width="489" height="713" key="GridCell.Tab.0.right/64.27.1536.873@64.27.1536.873" timestamp="1589306578338" />
   </component>
 </project>
