@@ -19,12 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5476c3e-689a-458b-bb12-296fddef3da8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="a5476c3e-689a-458b-bb12-296fddef3da8" name="Default Changelist" comment="116 LinkedList 12052130">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/116. LinkedList Part.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/116. LinkedList Part/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/116. LinkedList Part/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/116. LinkedList Part/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/English words 40.txt" beforeDir="false" afterPath="$PROJECT_DIR$/English words 40.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +94,14 @@
       <option name="presentableId" value="Default" />
       <updated>1589169462917</updated>
     </task>
+    <task id="LOCAL-00001" summary="116 LinkedList 12052130">
+      <created>1589308266999</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589308266999</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,26 +116,30 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="116 LinkedList 12052130" />
+    <option name="LAST_COMMIT_MESSAGE" value="116 LinkedList 12052130" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="1083" y="182" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1589169922963">
       <screen x="64" y="27" width="1536" height="873" />
     </state>
     <state x="1083" y="182" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/64.27.1536.873@64.27.1536.873" timestamp="1589169922963" />
-    <state width="489" height="713" key="GridCell.Tab.0.bottom" timestamp="1589306578339">
+    <state width="518" height="433" key="GridCell.Tab.0.bottom" timestamp="1589343173358">
       <screen x="64" y="27" width="1536" height="873" />
     </state>
-    <state width="489" height="713" key="GridCell.Tab.0.bottom/64.27.1536.873@64.27.1536.873" timestamp="1589306578339" />
-    <state width="489" height="713" key="GridCell.Tab.0.center" timestamp="1589306578338">
+    <state width="518" height="433" key="GridCell.Tab.0.bottom/64.27.1536.873@64.27.1536.873" timestamp="1589343173358" />
+    <state width="518" height="433" key="GridCell.Tab.0.center" timestamp="1589343173357">
       <screen x="64" y="27" width="1536" height="873" />
     </state>
-    <state width="489" height="713" key="GridCell.Tab.0.center/64.27.1536.873@64.27.1536.873" timestamp="1589306578338" />
-    <state width="489" height="713" key="GridCell.Tab.0.left" timestamp="1589306578337">
+    <state width="518" height="433" key="GridCell.Tab.0.center/64.27.1536.873@64.27.1536.873" timestamp="1589343173357" />
+    <state width="518" height="433" key="GridCell.Tab.0.left" timestamp="1589343173357">
       <screen x="64" y="27" width="1536" height="873" />
     </state>
-    <state width="489" height="713" key="GridCell.Tab.0.left/64.27.1536.873@64.27.1536.873" timestamp="1589306578337" />
-    <state width="489" height="713" key="GridCell.Tab.0.right" timestamp="1589306578338">
+    <state width="518" height="433" key="GridCell.Tab.0.left/64.27.1536.873@64.27.1536.873" timestamp="1589343173357" />
+    <state width="518" height="433" key="GridCell.Tab.0.right" timestamp="1589343173357">
       <screen x="64" y="27" width="1536" height="873" />
     </state>
-    <state width="489" height="713" key="GridCell.Tab.0.right/64.27.1536.873@64.27.1536.873" timestamp="1589306578338" />
+    <state width="518" height="433" key="GridCell.Tab.0.right/64.27.1536.873@64.27.1536.873" timestamp="1589343173357" />
   </component>
 </project>

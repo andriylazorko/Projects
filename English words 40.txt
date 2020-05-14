@@ -11,6 +11,17 @@ warriors воїни
 prompt підказка
 directions напрямки
 enhance підсилити
+motion жест рух
 forward motion в русі вперед
 forward вперед
 backwards назад
+retrieve повернути собі
+supplier постачальник
+itinerary маршрут
+sufficiently достатньо
+scheme схема
+traversing повздовж, перетинати
+tortoise черепаха
+inaudible безшумний
+housekeeping господарка
+crashing вдиратися, врізатися
