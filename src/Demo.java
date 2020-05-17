@@ -44,6 +44,7 @@ public class Demo {
                 stringListIterator.add(newCity);
                 return true;
             } else if (comparison < 0) {
+                // move on next city
             }
 
         }
@@ -73,30 +74,30 @@ public class Demo {
                     quit = true;
                     break;
                 case 1:
-                    if(!goingForward){
-                        if(listIterator.hasNext()){
+                    if (!goingForward) {
+                        if (listIterator.hasNext()) {
                             listIterator.next();
                         }
-                        goingForward=true;
+                        goingForward = true;
                     }
-                    if(listIterator.hasNext()){
-                        System.out.println("Now visiting "+listIterator.next());
-                    }else{
-                        goingForward=false;
+                    if (listIterator.hasNext()) {
+                        System.out.println("Now visiting " + listIterator.next());
+                    } else {
+                        goingForward = false;
                         System.out.println("Reached the end of the list");
                     }
                     break;
                 case 2:
-                    if(goingForward){
-                        if(listIterator.hasPrevious()){
+                    if (goingForward) {
+                        if (listIterator.hasPrevious()) {
                             listIterator.previous();
                         }
-                        goingForward=false;
+                        goingForward = false;
                     }
-                    if(listIterator.hasPrevious()){
-                        System.out.println("Now visiting "+listIterator.previous());
-                    }else{
-                        goingForward=true;
+                    if (listIterator.hasPrevious()) {
+                        System.out.println("Now visiting " + listIterator.previous());
+                    } else {
+                        goingForward = true;
                         System.out.println("We are at the start of the list");
                     }
                     break;
@@ -108,6 +109,7 @@ public class Demo {
             }
         }
     }
+
     private static void printMenu() {
         System.out.println("Available actions:\npress ");
         System.out.println("0 - to quit\n" +
