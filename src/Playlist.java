@@ -28,22 +28,22 @@ public class Playlist {
         Song checkSong = findSong(albumSong, title);
         if (checkSong != null) {
             this.playlist.add(checkSong);
+            return true;
         }
         System.out.println("The song " + title + " is not in this album");
         return false;
     }
 
     public boolean addToPlaylist(Album albumSong, int trackNumber) {
-        if (trackNumber > 0) {
-            for (int i = 0; i < albumSong.getSongs().size(); i++) {
-                Song checkSong=albumSong.getSongs().get(i);
-                if ((trackNumber - 1) == i) {
-                    this.playlist.add(checkSong);
-                }
-            }
+        if ((trackNumber > 0) && (trackNumber <= albumSong.getSongs().size())) {
+            int index = trackNumber - 1;
+            this.playlist.add(albumSong.getSongs().get(index));
+            return true;
+        } else {
+            System.out.println("This album does not have a track " + trackNumber);
         }
-        System.out.println("This album does not have a track " + trackNumber);
         return false;
+
     }
 
 
