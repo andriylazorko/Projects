@@ -1,7 +1,11 @@
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.ListIterator;
+import java.util.Scanner;
 
 public class Main {
+    static Scanner scanner = new Scanner(System.in);
+
     public static void main(String[] args) {
         System.out.println("121. LinkedList Challenge my version");
 
@@ -36,33 +40,75 @@ public class Main {
         playlist.addToPlaylist(album2, 6);
         playlist.addToPlaylist(album1, 4);
 
-        LinkedList<Song> songPlay = new LinkedList<Song>();
-        songPlay = playlist.getPlaylist();
+        LinkedList<Song> myPlaylist = new LinkedList<Song>();
+        myPlaylist = playlist.getSong();
+//        playlist.printPlaylist(myPlaylist);
+        playlist.printPlaylistMenu();
 
-        printList(songPlay);
+        ListIterator<Song> listIterator = myPlaylist.listIterator();
 
-    }
+        boolean quit = false;
+        boolean flag = true;
 
-
-    private static void printMenu() {
-        System.out.println("Available actions:\npress");
-        System.out.println("0 - to quit\n" +
-                "1 - to play next song\n" +
-                "2 - to play previous song\n" +
-                "3 - to replay the current song\n" +
-                "4 - list songs in the playlist\n" +
-                "5 - print available actions.\n" +
-                "6 - delete current song from playlist");
-
-    }
-
-    private static void printList(LinkedList<Song> playList) {
-        Iterator<Song> iterator = playList.iterator();
-        System.out.println("================================");
-        while (iterator.hasNext()) {
-            System.out.println(iterator.next());
+        while (!quit) {
+            int action = scanner.nextInt();
+            scanner.nextLine();
+            switch (action) {
+                case 0:
+                    System.out.println("Playlist complete.");
+                    quit = true;
+                    break;
+                case 1:
+                    if (flag) {
+                        playlist.playingPlaylistForward(myPlaylist, listIterator);
+                    } else {
+                        flag = changeFlag(listIterator, flag);
+                        playlist.playingPlaylistForward(myPlaylist, listIterator);
+                    }
+                    break;
+                case 2:
+                    if (!flag) {
+                        playlist.playingPlaylistBackwards(myPlaylist, listIterator);
+                    } else {
+                        flag = changeFlag(listIterator, flag);
+                        playlist.playingPlaylistBackwards(myPlaylist, listIterator);
+                    }
+                    break;
+                case 3:
+                    if (flag) {
+                        playlist.playingPlaylistBackwards(myPlaylist, listIterator);
+                        flag = false;
+                    } else {
+                        playlist.playingPlaylistForward(myPlaylist, listIterator);
+                        flag = true;
+                    }
+                    break;
+                case 4:
+                    playlist.printPlaylist(myPlaylist);
+                    break;
+                case 5:
+                    playlist.printPlaylistMenu();
+                    break;
+                case 6:
+                    playlist.removeSongFromPlaylist(myPlaylist,listIterator);
+                    break;
+            }
         }
-        System.out.println("================================");
     }
 
+    private static boolean changeFlag(ListIterator<Song> listIterator, boolean flag) {
+        if (!flag) {
+            if (listIterator.hasNext()) {
+                listIterator.next();
+            }
+            flag = true;
+            return flag;
+        } else {
+            if (listIterator.hasPrevious()) {
+                listIterator.previous();
+            }
+            flag = false;
+            return flag;
+        }
+    }
 }
