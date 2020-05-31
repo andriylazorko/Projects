@@ -20,26 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a42386a-fe7c-4c86-bd8e-b47a11c51462" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/English words 42.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeskPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Gearbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ITelephone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MobilPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/121. LinkedList Challenge my version.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Projects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/English words 41.txt" beforeDir="false" afterPath="$PROJECT_DIR$/English words 41.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture-67-challenge.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/121. LinkedList Challenge my version/Album.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/121. LinkedList Challenge my version/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/121. LinkedList Challenge my version/Playlist.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/121. LinkedList Challenge my version/Song.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Album.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Playlist.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Song.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +50,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Projects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
