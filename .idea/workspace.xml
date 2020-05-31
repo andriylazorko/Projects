@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a42386a-fe7c-4c86-bd8e-b47a11c51462" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,5 +95,21 @@
       <screen x="64" y="27" width="1536" height="873" />
     </state>
     <state x="1128" y="171" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/64.27.1536.873@64.27.1536.873" timestamp="1590833955793" />
+    <state width="882" height="275" key="GridCell.Tab.0.bottom" timestamp="1590909384234">
+      <screen x="64" y="27" width="1856" height="1053" />
+    </state>
+    <state width="882" height="275" key="GridCell.Tab.0.bottom/64.27.1856.1053@64.27.1856.1053" timestamp="1590909384234" />
+    <state width="882" height="275" key="GridCell.Tab.0.center" timestamp="1590909384233">
+      <screen x="64" y="27" width="1856" height="1053" />
+    </state>
+    <state width="882" height="275" key="GridCell.Tab.0.center/64.27.1856.1053@64.27.1856.1053" timestamp="1590909384233" />
+    <state width="882" height="275" key="GridCell.Tab.0.left" timestamp="1590909384232">
+      <screen x="64" y="27" width="1856" height="1053" />
+    </state>
+    <state width="882" height="275" key="GridCell.Tab.0.left/64.27.1856.1053@64.27.1856.1053" timestamp="1590909384232" />
+    <state width="882" height="275" key="GridCell.Tab.0.right" timestamp="1590909384234">
+      <screen x="64" y="27" width="1856" height="1053" />
+    </state>
+    <state width="882" height="275" key="GridCell.Tab.0.right/64.27.1856.1053@64.27.1856.1053" timestamp="1590909384234" />
   </component>
 </project>
