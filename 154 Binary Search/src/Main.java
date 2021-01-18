@@ -15,5 +15,26 @@ public class Main {
         }else{
             System.out.println("Sorry, seat is taken");
         }
+
+        if (theatre.reserveSeat("A9993")){
+            System.out.println("Please pay");
+        }else{
+            System.out.println("Sorry, seat is taken");
+        }
+
+        if (theatre.reserveSeat("B119993")){
+            System.out.println("Please pay");
+        }else{
+            System.out.println("Sorry, seat is taken");
+        }
+        if (theatre.reserveSeat("H9193")){
+            System.out.println("Please pay");
+        }else{
+            System.out.println("Sorry, seat is taken");
+        } if (theatre.reserveSeat("H9993")){
+            System.out.println("Please pay");
+        }else{
+            System.out.println("Sorry, seat is taken");
+        }
     }
 }

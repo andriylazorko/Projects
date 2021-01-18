@@ -22,25 +22,25 @@ public class Theatre {
     }
 
     public boolean reserveSeat(String seatNumber) {
-//        int low = 0;
-//        int high = seats.size() - 1;
-//
-//        while (low <= high) {
-//            System.out.print(".");
-//            int mid = (low + high) / 2;
-//            Seat midVal = seats.get(mid);
-//            int cmp = midVal.getSeatNumber().compareTo(seatNumber);
-//
-//            if (cmp < 0) {
-//                low = mid + 1;
-//            } else if (cmp > 0) {
-//                high = mid - 1;
-//            } else {
-//                return seats.get(mid).reserve();
-//            }
-//        }
-//        System.out.println("There is no seat " + seatNumber);
-//        return false;
+        int low = 0;
+        int high = seats.size() - 1;
+
+        while (low <= high) {
+            System.out.print(".");
+            int mid = (low + high) / 2;
+            Seat midVal = seats.get(mid);
+            int cmp = midVal.getSeatNumber().compareTo(seatNumber);
+
+            if (cmp < 0) {
+                low = mid + 1;
+            } else if (cmp > 0) {
+                high = mid - 1;
+            } else {
+                return seats.get(mid).reserve();
+            }
+        }
+        System.out.println("There is no seat " + seatNumber);
+        return false;
 
 //        Seat requestedSeat = new Seat(seatNumber);
 //        int foundSeat = Collections.binarySearch(seats,requestedSeat,null);
@@ -52,19 +52,19 @@ public class Theatre {
 //        }
 
 
-        Seat requestedSeat =null;
-        for (Seat seat : seats) {
-            System.out.print(".");
-            if (seat.getSeatNumber().equals(seatNumber)) {
-                requestedSeat = seat;
-                break;
-            }
-        }
-        if (requestedSeat == null) {
-            System.out.println("There is no seat " + seatNumber);
-            return false;
-        }
-        return requestedSeat.reserve();
+//        Seat requestedSeat =null;
+//        for (Seat seat : seats) {
+//            System.out.print(".");
+//            if (seat.getSeatNumber().equals(seatNumber)) {
+//                requestedSeat = seat;
+//                break;
+//            }
+//        }
+//        if (requestedSeat == null) {
+//            System.out.println("There is no seat " + seatNumber);
+//            return false;
+//        }
+//        return requestedSeat.reserve();
     }
 
     public void getSeats() {
