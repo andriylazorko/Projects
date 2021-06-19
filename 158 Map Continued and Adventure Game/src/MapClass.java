@@ -24,8 +24,8 @@ public class MapClass {
         }
         System.out.println("===================================");
 
-        for(String key:language.keySet()){
-            System.out.println(key+":"+language.get(key));
+        for (String key : language.keySet()) {
+            System.out.println(key + ":" + language.get(key));
         }
     }
 }
