@@ -10,7 +10,7 @@ public class Main {
         //Empty String
         String  primeNumbers = "";
 
-        for (i = 1; i <= 100; i++)
+        for (i = 1; i <= 200; i++)
         {
             int counter=0;
             for(num =i; num>=1; num--)
@@ -28,7 +28,6 @@ public class Main {
         }
         System.out.println("Prime numbers from 1 to 100 are :");
         System.out.println(primeNumbers);
-
     }
 
 }
